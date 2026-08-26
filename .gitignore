@@ -16,7 +16,11 @@ data_*/
 mono_crash.*.json
 
 # Daily folder in Obsidian Vault
-.Obsidian/Vault/Daily Notes/.*.md
+Obsidian/Vault/Daily Notes/.*.md
+
+# Ignore volatile UI-related state
+Obsidian/Vault/.obsidian/workspace.json
+Obsidian/Vault/.obsidian/app.json
 
 # Godot executable folder
 /Projects/Godot/Godot_v4.7.2-stable_mono_win64
