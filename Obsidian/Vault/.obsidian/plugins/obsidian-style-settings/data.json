@@ -1,0 +1,18 @@
+{
+  "pln@@pln-link-mods": false,
+  "pln@@pln-hide-files": false,
+  "pln@@pln-folder-icons": true,
+  "pln@@pln-attachments-canvas": false,
+  "pln@@pln-attachments-images": false,
+  "pln@@pln-attachments-xlsx": false,
+  "pln@@pln-attachments-docx": false,
+  "pln@@pln-attachments-pdf": false,
+  "pln@@pln-rm-rside": false,
+  "pln@@pln-rm-tablist": true,
+  "pln@@pln-rm-nav": false,
+  "pln@@pln-rm-srchSug": false,
+  "pln@@pln-props-list": false,
+  "pln@@pln-props-emptyval": false,
+  "pln@@pln-props-heading": true,
+  "pln@@hide-properties": true
+}

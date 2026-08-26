@@ -14,3 +14,9 @@ export_credentials.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# Daily folder in Obsidian Vault
+.Obsidian/Vault/Daily Notes/.*.md
+
+# Godot executable folder
+/Projects/Godot/Godot_v4.7.2-stable_mono_win64

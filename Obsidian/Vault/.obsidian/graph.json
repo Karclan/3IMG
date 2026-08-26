@@ -1,0 +1,86 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"3 - Topics\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 15453067
+      }
+    },
+    {
+      "query": "path:\"6 - Main Notes\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8962256
+      }
+    },
+    {
+      "query": "path:\"2 - Source Material\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 13666160
+      }
+    },
+    {
+      "query": "path:\"1 - Rough Notes\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 12542314
+      }
+    },
+    {
+      "query": "path:\"5 - Template\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 9419963
+      }
+    },
+    {
+      "query": "path:\"6 - Indexes\"",
+      "color": {
+        "a": 1,
+        "rgb": 10731148
+      }
+    },
+    {
+      "query": "path:\"Daily Notes\" ",
+      "color": {
+        "a": 1,
+        "rgb": 6193580
+      }
+    },
+    {
+      "query": "path:\"Canvas Folder\"",
+      "color": {
+        "a": 1,
+        "rgb": 8495553
+      }
+    },
+    {
+      "query": "path:\"Glossary\"",
+      "color": {
+        "a": 1,
+        "rgb": 11833005
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 2.06425202791926,
+  "collapse-forces": true,
+  "centerStrength": 0.702697604225618,
+  "repelStrength": 14.2283318709174,
+  "linkStrength": 0.883795510281079,
+  "linkDistance": 30,
+  "scale": 1.029877479615668,
+  "close": false
+}
