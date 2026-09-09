@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://p1sftppuh7do"]
+
+[ext_resource type="Script" uid="uid://ceux0ukauepot" path="res://Player.cs" id="1_4flbx"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_a0hpm"]
+size = Vector3(0.75, 1, 0.75)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c6ieb"]
+albedo_color = Color(1, 0, 0, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4flbx"]
+size = Vector3(0.75, 1, 0.75)
+
+[node name="Player" type="CharacterBody3D" unique_id=251398639]
+script = ExtResource("1_4flbx")
+
+[node name="Pivot" type="Node3D" parent="." unique_id=476573557]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Pivot" unique_id=1046994641]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+mesh = SubResource("BoxMesh_a0hpm")
+surface_material_override/0 = SubResource("StandardMaterial3D_c6ieb")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1574665104]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+shape = SubResource("BoxShape3D_4flbx")
+
+[node name="CameraPivot" type="Marker3D" parent="." unique_id=632679094]
+
+[node name="Camera3D" type="Camera3D" parent="CameraPivot" unique_id=919653393]
+transform = Transform3D(1, 0, 0, 0, 0.7071068, 0.7071068, 0, -0.7071068, 0.7071068, 0, 8, 8)

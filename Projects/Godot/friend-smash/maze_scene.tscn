@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://ba8vkth6cud3i"]
+
+[ext_resource type="PackedScene" uid="uid://p1sftppuh7do" path="res://player.tscn" id="1_uymeu"]
+[ext_resource type="MeshLibrary" uid="uid://877udfmyugbl" path="res://Maze/walls.meshlib" id="2_c6ieb"]
+[ext_resource type="MeshLibrary" uid="uid://fl0n5mgb1n1" path="res://Maze/legowalls.meshlib" id="3_a0hpm"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_5wron"]
+size = Vector2(50, 100)
+
+[node name="MazeScene" type="Node" unique_id=363900260]
+
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=127379879]
+mesh = SubResource("PlaneMesh_5wron")
+
+[node name="Player" parent="." unique_id=251398639 instance=ExtResource("1_uymeu")]
+
+[node name="GlobalLight" type="DirectionalLight3D" parent="." unique_id=729241905]
+transform = Transform3D(0.9659258, 0.06698731, 0.25, -0.25000006, 0.49148145, 0.83423376, -0.066987306, -0.8683078, 0.49148145, 0, 20, 0)
+shadow_enabled = true
+
+[node name="GridMap" type="GridMap" parent="." unique_id=1892676379]
+mesh_library = ExtResource("2_c6ieb")
+cell_size = Vector3(1, 1, 1)
+data = {
+"cells": PackedInt32Array(3, 0, 0, 6, 0, 0, 9, 65533, 0, 7, 65532, 0, 1, 1, 0, 65535, 65534, 1, 0, 65534, 1, 0, 65533, 1, 2, 65533, 0, 3, 65534, 0, 3, 65531, 0, 5, 65530, 0, 8, 65530, 0, 11, 65531, 0, 6, 65534, 1, 6, 65535, 1, 65533, 65535, 1, 65533, 0, 1, 65533, 1, 1, 65534, 1, 1, 65531, 65534, 1, 65531, 65533, 1, 65531, 65532, 1, 65532, 65532, 1, 65533, 65532, 1, 65534, 65532, 1, 0, 65531, 1, 0, 65530, 1, 0, 65529, 1, 65534, 65530, 1, 65534, 65529, 1, 65534, 65528, 1, 65533, 65528, 1, 65532, 65528, 1, 65531, 65528, 1, 65530, 65528, 1, 65532, 65530, 1, 65531, 65530, 1, 65530, 65530, 1, 2, 65529, 1, 2, 65528, 1, 3, 65528, 1, 4, 65528, 1, 5, 65528, 1, 6, 65528, 1, 7, 65528, 1, 8, 65528, 1, 8, 65527, 1, 9, 65527, 1, 10, 65527, 1, 11, 65529, 1, 12, 65529, 1, 12, 65528, 1, 65531, 0, 1, 65531, 1, 1, 65531, 2, 1, 65531, 3, 1, 65532, 3, 1, 65533, 3, 1, 65534, 3, 1, 65533, 5, 1, 65534, 5, 1, 65535, 5, 1, 0, 5, 1, 0, 4, 1, 0, 3, 1, 2, 2, 1, 2, 3, 1, 2, 4, 1, 2, 5, 1, 4, 5, 1, 4, 4, 1, 4, 3, 1, 4, 2, 1, 5, 2, 1, 6, 2, 1, 7, 2, 1, 6, 4, 1, 7, 4, 1, 8, 4, 1, 9, 4, 1, 9, 0, 1, 9, 1, 1, 9, 2, 1, 9, 3, 1, 65529, 2, 0, 65528, 0, 0, 65528, 4, 0, 65529, 5, 1, 65531, 5, 1, 65529, 65534, 0, 65528, 65532, 0, 65530, 65529, 1)
+}
+
+[node name="GridMap2" type="GridMap" parent="." unique_id=608110251]
+mesh_library = ExtResource("3_a0hpm")
+data = {
+"cells": PackedInt32Array(3, 5, 786432, 65535, 5, 786432)
+}
