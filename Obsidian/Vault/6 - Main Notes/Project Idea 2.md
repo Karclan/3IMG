@@ -5,10 +5,10 @@ Topics:
 tags:
   - In_Progress
 Created: 2026-09-02, 12:27:36
-Modified: 2026-09-02, 12:51:15
+Modified: 2026-09-09, 7:12:48
 ---
 
-# 2nd Project
+# Project Idea 2
 
 A potential 2nd project idea would be some sort of Action RPG - A diablo esq game. However it'd be setup like a survivors game - MegaBonk, Vampire Survivors ect. The genre might be a little over done but I think it could be interesting mechanically to setup something where the abilities are structured like they are in Path Of Exile.
 
