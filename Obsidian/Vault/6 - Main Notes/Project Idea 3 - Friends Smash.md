@@ -5,7 +5,7 @@ Topics:
 tags:
   - In_Progress
 Created: 2026-09-09, 7:10:30
-Modified: 2026-09-09, 3:42:50
+Modified: 2026-09-09, 7:47:22
 ---
 
 # Project Idea 3: Friends Smash
@@ -26,6 +26,12 @@ Initial starting characters:
 - Castell
 - Karclan
 
+Non playable characters: 
+- Alex - Shop keeper for upgrades?
+- Castell can fill in the rest.
+
+Changing the map colour based on player too.
+- Livy wants pink
 
 ## References
 The idea is based on the Nikke Persona minigame that is no longer available
