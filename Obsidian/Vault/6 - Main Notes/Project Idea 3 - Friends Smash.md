@@ -5,26 +5,44 @@ Topics:
 tags:
   - In_Progress
 Created: 2026-09-09, 7:10:30
-Modified: 2026-09-09, 3:56:11
+Modified: 2026-09-09, 4:30:50
 ---
 
 # Project Idea 3: Friends Smash
 A procedurally generated labyrinth map with isometric view, going forward/upwards infinitely collecting coins to make a score. There is a bonus points item and a bonus multiplier bar. You get more points the further you go as well.
 
-We gonna have our friends be characters in the game. Each friend is gonna have a special ability and they can also be foes. If a character is selected as the player. It can not show as a foe. The abilities should be simple and straightforward pun or jokes about them. Ex: Chimmy coming to save the chat from NSFW Ex: Jinxxy popping a bottle to make her faster but also drunk
-
-Example characters and powers:
-- Chimmy: Something about NSFW banning
-- Jinxxy: Popping a bottle to make her faster
-- Mango: Starts talking shit and people run away from him.
+We gonna have our friends be characters in the game. Each friend is gonna have a special ability and they can also be foes. If a character is selected as the player. It can not show as a foe. The abilities should be simple and straightforward pun or jokes about them.
 
 Livy is keen on the idea of people having different theme songs that play when they are selected.
-
+Every character has the same run speed.
 Lets start with a few characters as to not break off more than we can chew. 
-Initial starting characters:
-- Livy
-- Castell
-- Karclan
+
+Initial starting characters and their powers:
+
+- Livy: Plays piano making all the enemies on screen fall asleep.
+- Zara: A green shield that stops your health from depleting and makes you invulnerable.
+- Lulu: Gets drunk, enemies he sees start dancing.
+
+Unlockable characters and their powers: 
+- Karclan: Has a bike that allows to move twice as fast and kills foes when hit.
+-  Castell: Has a crown on their head, makes a grr sound and makes enemies explode of rage on a radial around him.
+- Dragon: Breaths fire shaped like swear words. Maybe has some cool wings 1.5x speed
+- Chimmy: Chimmy stomps killing every monster on screen.
+- Jinxie: Pops her tequila bottle making her twice as fast, but drunk. Foes run away from her.
+- Mango: Starts talking shit on a radial and enemies fall to the ground.
+- Furedy:
+- Ninja:
+- AuroraVera:
+
+- OMZ:
+- Sparrow:
+- Frajs:
+- Drimi:
+- Minaki:
+- Ken:
+- Todes:
+- Shaney:
+- Squires:
 
 Non playable characters: 
 - Alex - Shop keeper for upgrades?
@@ -32,6 +50,12 @@ Non playable characters:
 
 Changing the map colour based on player too.
 - Livy wants pink
+
+Items in the game:
+Bomb: Creates a radial around the player and it explodes in 15 seconds. Check references.
+Health Pack: Adds health to the health bar allowing the player to be hit once and adds more time to the run. Check references.
+Wild Card: Adds a double points meter for 15 seconds.
+Power up: Adds 1/4 of power to the player power up bar.
 
 ## References
 The idea is based on the Nikke Persona minigame that is no longer available
