@@ -5,7 +5,7 @@ Topics:
 tags:
   - In_Progress
 Created: 2026-09-09, 7:10:30
-Modified: 2026-09-09, 7:47:22
+Modified: 2026-09-09, 3:56:11
 ---
 
 # Project Idea 3: Friends Smash
@@ -74,4 +74,9 @@ This item is a double points item. It creates a meter on the screen that makes e
 ![[Pasted image 20260909154137.png]]
 
 When you die you get a score and a rank. We could have random funny quotes in the end.
-![[Pasted image 20260909154227.png]]
+![[Pasted image 20260909154227.png|298]]
+
+This item increases your time on a run, aka it increases your health bar by 1 hit and a half. The half is to compensate for time lost while moving.
+![[Pasted image 20260909155353.png]]
+
+In the original game your health bar lowers 5 points a second. Starts with 600, but it can be upgraded up to 1170. I'm not sure why they made it this way, but I think it would be preferable for the run to last as long as anyone wants to play it.
