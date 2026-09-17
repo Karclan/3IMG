@@ -1,6 +1,6 @@
 ---
 Created: 2026-09-15, 5:53:44
-Modified: 2026-09-15, 6:31:49
+Modified: 2026-09-16, 11:46:46
 ---
 
 
@@ -31,7 +31,7 @@ Must plays:
 -Duck Season
 -Budget Cuts
 -Walking Dead Saints and Sinners
--Superhot
+-Superhot VR (The original story was removed, but it's very inspiring)
 
 The important bits:
 
